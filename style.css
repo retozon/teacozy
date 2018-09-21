@@ -1,0 +1,73 @@
+body{
+	font-family: helvetica;
+	font-size: 22px;
+	color: seashell;
+	background-color: black;
+	opacity: .9;
+	text-align: center;
+}
+span{
+	text-decoration: underline;
+}
+.mission{
+	background-image: src="sources/background.jpg";
+	display: flex;
+	width: 1200px;
+	height: 700px;
+	text-justify: right;
+	opacity: 1;
+	
+}
+.locations{
+	align-content:center;
+}
+.flex-container{
+	display: flex;
+	height: 300px;
+	align-items: space-between;
+}
+#header.head{
+	display: flex;
+    flex-basis: auto;
+    border-left: 10px;
+	bottom-border: 1px solid seashell;
+
+}
+#header.head {
+	
+}
+h1	{
+	border-left: 10px;
+	height: 50px;
+	width: 10px;
+	background-position: margin-left; 
+
+}
+.tea{
+	width: 1000px;
+	padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+	flex-flow: wrap;
+	display: flex;
+	align-items: overflow-wrap;
+	min-width: auto; 
+	align-items: space-between;	
+	box-sizing: border-spacing;
+}
+.downtown{
+	display: flex;
+	height: 500px;
+	flex-flow: column;
+	align-items: baseline;
+	min-height: auto;
+	min-width: auto;
+
+}
+.contact{
+
+}
+.footer{
+	text-align: left;
+	margin-left: 20px;
+}
